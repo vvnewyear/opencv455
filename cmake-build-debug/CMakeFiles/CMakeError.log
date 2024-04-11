@@ -1,0 +1,340 @@
+Build output check failed:
+    Regex: 'argument .* is not valid'
+    Output line: 'cc1.exe: warning: '-Werror=' argument '-Werror=non-virtual-dtor' is not valid for C'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_5b42e
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -g -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor -o CMakeFiles/cmTC_5b42e.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1.exe: warning: '-Werror=' argument '-Werror=non-virtual-dtor' is not valid for C
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g  CMakeFiles/cmTC_5b42e.dir/src.c.obj -o cmTC_5b42e.exe -Wl,--out-implib,libcmTC_5b42e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command-line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_4f5e1
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -g -std=c++11 -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -o CMakeFiles/cmTC_4f5e1.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+cc1plus.exe: warning: command-line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g  CMakeFiles/cmTC_4f5e1.dir/src.cxx.obj -o cmTC_4f5e1.exe -Wl,--out-implib,libcmTC_4f5e1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command-line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_9f757
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -g -std=c++11 -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -o CMakeFiles/cmTC_9f757.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+cc1plus.exe: warning: command-line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g  CMakeFiles/cmTC_9f757.dir/src.cxx.obj -o cmTC_9f757.exe -Wl,--out-implib,libcmTC_9f757.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_388ff
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -g -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_388ff.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1.exe: warning: command-line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g  CMakeFiles/cmTC_388ff.dir/src.c.obj -o cmTC_388ff.exe -Wl,--out-implib,libcmTC_388ff.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_090ad
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -g -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_090ad.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1.exe: warning: command-line option '-Wsuggest-override' is valid for C++/ObjC++ but not for C
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g  CMakeFiles/cmTC_090ad.dir/src.c.obj -o cmTC_090ad.exe -Wl,--out-implib,libcmTC_090ad.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6b160
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -g -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_6b160.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1.exe: warning: command-line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g  CMakeFiles/cmTC_6b160.dir/src.c.obj -o cmTC_6b160.exe -Wl,--out-implib,libcmTC_6b160.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7e2d2
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -g -std=c++11 -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_7e2d2.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g  CMakeFiles/cmTC_7e2d2.dir/src.cxx.obj -o cmTC_7e2d2.exe -Wl,--out-implib,libcmTC_7e2d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_56190
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -g -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_56190.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1.exe: note: unrecognized command-line option '-Wno-unnamed-type-template-args' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g  CMakeFiles/cmTC_56190.dir/src.c.obj -o cmTC_56190.exe -Wl,--out-implib,libcmTC_56190.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_df0c0
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -g -fdiagnostics-color=always    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_df0c0.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1.exe: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g  CMakeFiles/cmTC_df0c0.dir/src.c.obj -o cmTC_df0c0.exe -Wl,--out-implib,libcmTC_df0c0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_32b10
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -g  -O0 -DDEBUG -D_DEBUG -fdiagnostics-color=always    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_32b10.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_32b10.dir/src.c.obj -o cmTC_32b10.exe -Wl,--out-implib,libcmTC_32b10.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command-line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_413af
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -g  -O0 -DDEBUG -D_DEBUG -std=c++11 -fdiagnostics-color=always    -Wno-missing-prototypes -o CMakeFiles/cmTC_413af.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+cc1plus.exe: warning: command-line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_413af.dir/src.cxx.obj -o cmTC_413af.exe -Wl,--out-implib,libcmTC_413af.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7be66
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -g  -O0 -DDEBUG -D_DEBUG -fdiagnostics-color=always    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_7be66.dir/src.c.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_7be66.dir/src.c.obj -o cmTC_7be66.exe -Wl,--out-implib,libcmTC_7be66.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-inconsistent-missing-override' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_dbc97
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -g  -O0 -DDEBUG -D_DEBUG -std=c++11 -fdiagnostics-color=always    -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_dbc97.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-inconsistent-missing-override' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_dbc97.dir/src.cxx.obj -o cmTC_dbc97.exe -Wl,--out-implib,libcmTC_dbc97.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_aae37
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -g  -O0 -DDEBUG -D_DEBUG -std=c++11 -fdiagnostics-color=always    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_aae37.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-implicit-const-int-float-conversion' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_aae37.dir/src.cxx.obj -o cmTC_aae37.exe -Wl,--out-implib,libcmTC_aae37.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-tautological-undefined-compare' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_36fa9
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -g  -O0 -DDEBUG -D_DEBUG -std=c++11 -fdiagnostics-color=always    -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_36fa9.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-tautological-undefined-compare' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_36fa9.dir/src.cxx.obj -o cmTC_36fa9.exe -Wl,--out-implib,libcmTC_36fa9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_b25aa
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -g  -O0 -DDEBUG -D_DEBUG -std=c++11 -fdiagnostics-color=always    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_b25aa.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-shorten-64-to-32' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_b25aa.dir/src.cxx.obj -o cmTC_b25aa.exe -Wl,--out-implib,libcmTC_b25aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: note: unrecognized command-line option '-Wno-enum-compare-switch' may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: 'E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/Users/svmak/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_940a4
+[1/2] C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -g  -O0 -DDEBUG -D_DEBUG -std=c++11 -fdiagnostics-color=always    -Wno-enum-compare-switch -o CMakeFiles/cmTC_940a4.dir/src.cxx.obj -c E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring '#pragma  ' [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus.exe: note: unrecognized command-line option '-Wno-enum-compare-switch' may have been intended to silence earlier diagnostics
+[2/2] cmd.exe /C "cd . && C:\Users\svmak\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -g  -O0 -DDEBUG -D_DEBUG -Wl,--gc-sections CMakeFiles/cmTC_940a4.dir/src.cxx.obj -o cmTC_940a4.exe -Wl,--out-implib,libcmTC_940a4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+
+
+===== END =====
+

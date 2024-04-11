@@ -1,0 +1,99 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/include/opencv2/highgui.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/include/opencv2/highgui/highgui.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/include/opencv2/highgui/highgui_c.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/src/backend.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/src/window.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/src/roiSelector.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/src/window_w32.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/modules/highgui/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/cvconfig.h"
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/modules/highgui/vs_version.rc"
+		},
+		{
+			"file" : "E:/Workspace/clion/455/opencv-4.5.5/opencv-4.5.5/cmake-build-debug/modules/highgui/opencv_highgui_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_highgui",
+			"Module"
+		],
+		"name" : "opencv_highgui"
+	}
+}
